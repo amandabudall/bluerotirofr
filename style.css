@@ -8,9 +8,8 @@
 }
 
 :root{
-    --bg-color:var(--bg-color) #1d2631;
     --tex-color: #fff;
-    --main-color: #34e7f8;
+    --main-color: #9934f8;
     --other-color: #fcfcfc;
     --h1-font: 4rem;
     --p-font: 1rem;
@@ -18,7 +17,7 @@
 
 
 body{
-    background-color:#8f22aa ;
+    background-color: #2b2630 ;
     color: var(--tex-color);
 }
 
@@ -34,6 +33,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 30px 8%;
+    background-color: #211d24;
 
 }
 
