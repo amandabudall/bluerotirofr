@@ -156,3 +156,9 @@ header{
     height: auto;
     max-width: 100%;
 }
+
+.mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #211d24;
+}
