@@ -1,0 +1,28 @@
+*
+.nav-links{
+    display: inline-flex;
+}
+
+.nav-links a{
+    color: var(--other-color);
+    font-size: var(--p-font);
+    margin: 0 25px;
+    transition: a .55s ease;
+}
+
+.nav-links a:hover{
+    color: var(--main-color);
+
+}
+
+.nav-links ul li.active a{
+    color: aliceblue;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 900px) {
+    .menu-container{
+        display: none;
+
+    }
+}

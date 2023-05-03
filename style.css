@@ -52,24 +52,6 @@ header{
     margin-right: 5px;
 }
 
-.navegação{
-    display: flex;
-}
-
-.navegação a{
-    color: var(--other-color);
-    font-size: var(--p-font);
-    font-weight: 500;
-    margin: 0 30px;
-    transition: a .55s ease;
-}
-
-.navegação a:hover{
-    color: var(--main-color);
-
-}
-
-
 .header-icons{
     display: flex;
     align-items: center;
@@ -132,10 +114,11 @@ header{
 
 .home-img img{
     max-width: 100%;
-    width: 24rem;
+    width: 20rem;
     height: auto;
     margin-left: 32%;
     margin-top: 10%;
+    object-fit: cover;
 }
 
 
